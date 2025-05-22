@@ -5,6 +5,8 @@ function add(a,b){
 }
 const args = process.argv[2];
 const args1 = process.argv[3];
+const num = Number(args);
+const num1 = Number(args1);
 
 
-add(args,args1)
+add(num,num1)
