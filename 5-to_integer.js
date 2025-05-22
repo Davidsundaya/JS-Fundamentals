@@ -1,9 +1,8 @@
 const args = process.argv[2];
+const num = Number(args);
 
-
-if (args.isInteger(args)) {
-  console.log("Not a number");
+if (Number.isInteger(num)) {
+  console.log(`My number: ${num}`);
 } else {
-    args=Number(args)
-  console.log(`My number: ${args}`);
+  console.log("Not a number");
 }
