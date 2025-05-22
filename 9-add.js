@@ -1,6 +1,6 @@
 
 function add(a,b){
-    totat = a+b
+    let total = a+b
     console.log(total)
 }
 const args = process.argv[2];
