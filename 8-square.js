@@ -6,7 +6,7 @@ const num = Number(args);
     if (Number.isInteger(num)) {
         let i=0
         while (i<num){
-            console.log("x"*num)
+            console.log("x".repeat(num))
             i++
         }
         } else {
