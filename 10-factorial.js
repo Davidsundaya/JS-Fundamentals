@@ -6,7 +6,7 @@ function fact(num){
         total *= i
         i++
     }
-    console.log(`The factorial is ${total}`)
+    console.log(` ${total}`)
 }
 
 const args = process.argv[2];
