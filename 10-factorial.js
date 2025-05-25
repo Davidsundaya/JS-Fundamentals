@@ -1,9 +1,11 @@
 
 function fact(num){
-    i=1
+    
     while (i<=num){
-        let total =0
+        let i=1
+        let total =1
         total *= i
+        i++
     }
     console.log(`The factorial is ${total}`)
 }
