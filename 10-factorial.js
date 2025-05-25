@@ -6,7 +6,7 @@ function fact(num){
         total *= i
         i++
     }
-    console.log(` ${total}`)
+    console.log(total)
 }
 
 const args = process.argv[2];
