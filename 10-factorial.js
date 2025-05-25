@@ -1,9 +1,8 @@
 
 function fact(num){
-    
+    let i=1
+    let total =1
     while (i<=num){
-        let i=1
-        let total =1
         total *= i
         i++
     }
